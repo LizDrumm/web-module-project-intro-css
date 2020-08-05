@@ -1,0 +1,51 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    border:1px solid grey;
+  }
+  
+  html{
+    font-size:62.5%; 
+  }
+
+nav{
+
+   
+}
+
+ .top{
+      display:inline-block;
+  }
+
+  .mountains{
+    width:20%;
+    display:inline-block;
+    margin: 10%; 
+    margin: 0 auto;
+    border-radius:140px;
+    }
+
+.intro{
+    width:50%;
+    display:inline-block;
+}
+
+
+.bottompic{
+    margin:10% auto 0;
+}
+
+.bottomnav{
+    background-color:#F9E7DC;
+}
+
+.fire img{
+    padding: 0 auto;
+    margin:25%;
+}
