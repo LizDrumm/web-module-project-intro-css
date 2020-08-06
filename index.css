@@ -76,8 +76,8 @@ nav a{
         display:inline-block;
         width:20%;
         text-align:center;
-        padding: 1% 0;
-        margin-top: 3%;
+        padding: 3% 0;
+        margin-top: 5%;
       }
 
 .top nav{
@@ -95,9 +95,7 @@ h1{
       font-size:5rem;
       margin-top: auto;
       letter-spacing:2px;
-    
   }
-
 
 .plan{
      border-radius:9px;
@@ -108,7 +106,7 @@ h1{
      border: none;
      display:inline-block;
      width:100px;
-     margin-left: 6%;
+     margin-left: 3%;
      
  }   
 .plan:hover
@@ -125,7 +123,7 @@ h1{
     border: none;
      display:inline-block;
      width:110px;
-     margin: 0 20%;
+     margin: 0 15%;
 }  
 
 .learn:hover
@@ -232,11 +230,14 @@ Margin: 0 auto;
 
 footer{
     background-color:#F9E7DC;
+    padding-bottom: 2%;
 }
 
 .bottomnav{
     margin: 0 auto;
     width:40%;
+    
+
    
     
 }
