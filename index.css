@@ -1,15 +1,83 @@
-
 @import 
 url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 *{
-    padding:0;
-    margin:0;
     box-sizing:border-box;
-    border:1px solid grey;
+   
+}
+
+html{
+    font-size:62.5%; 
   }
-  
+
+
+nav{
+    margin:0 auto;
+    width:50%;  
+}
+
+.container{
+    margin:0 auto;
+    width:50%;
+}
+
+
+  h1{
+      font-family:chelsea market;
+      font-size:3rem;
+      margin-top: auto;
+    
+  }
+
+  p{
+    font-family:  Roboto Mono;
+}
 
  .plan{
      border-radius:10px;
@@ -26,35 +94,36 @@ url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&
     background-color: #FFCD69;
 }   
 
+.maintext{
+    background-color: #DDB9A3;
+    color:white;
+}
 
-  html{
-    font-size:62.5%; 
-  }
-
-  .mountains{
-    width:20%;
+.mountains, .intro{
     display:inline-block;
-    margin: 10%; 
-    margin: 0 auto;
-    border-radius:140px;
-    }
+ }
+ 
+ .mountains{
+    width:30%;
+}
+ 
+.mountains img{
+    border-radius:50%;
+    width:100%;
+}
 
 .intro{
+    width:55%;
+    margin-left:5%;
+    text-align:center;
+    line-height:3;
+    border: 10px solid black;
+}
+
+.fire, .bus{
+    margin:0 auto;
     width:50%;
-    display:inline-block;
-}
-
-
-
-
-.bottompic{
-    
-    
-}
-
-.bottomnav{
-    background-color:#F9E7DC;
-
+    text-align:center;
 }
 
 .fire img{
@@ -71,10 +140,14 @@ url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&
     margin-right: 40%;
 }
 
-p{
-    font-family:  Roboto Mono;
+.bottompic{
+    height:20vh;
+    background-image: url(assets/footer_img.jpg);
+    background-size: cover;
+    width:100%;
 }
 
-p .fire{
-  
+.bottomnav{
+    background-color:#F9E7DC;
+
 }
