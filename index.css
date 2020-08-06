@@ -10,17 +10,25 @@ url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&
     border:1px solid grey;
   }
   
+
+ .plan{
+     border-radius:10px;
+     background-color: #FF764E;
+ }   
+
+ .learn{
+    border-radius:10px;
+    background-color: #5ED3EB;
+}   
+
+.involved{
+    border-radius:10px;
+    background-color: #FFCD69;
+}   
+
+
   html{
     font-size:62.5%; 
-  }
-
-nav{
-
-   
-}
-
- .top{
-      display:inline-block;
   }
 
   .mountains{
@@ -37,15 +45,36 @@ nav{
 }
 
 
+
+
 .bottompic{
-    margin:10% auto 0;
+    
+    
 }
 
 .bottomnav{
     background-color:#F9E7DC;
+
 }
 
 .fire img{
-    padding: 0 auto;
-    margin:25%;
+    width: 20%; 
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.bus img{
+    width: 20%; 
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+p{
+    font-family:  Roboto Mono;
+}
+
+p .fire{
+  
 }
